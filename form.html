@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>P&M CONTACT</title>
+        <link rel="stylesheet" href="pandmstyle.css" type="text/css">
+        <link rel="stylesheet" href="form.css" type="text/css">
+        <link rel="stylesheet" href="menu.css" type="text/css">
+
+        <script type="text/javascript" src="js/_dependent/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="navagation.js"></script>
+        <script type="text/javascript" src="form.js"></script>
+        <script type="text/javascript" src="https://code.hoi.io/hoist.js"> </script>
+   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="menu.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="bannerLogo"></div>
+                <div class="bannerMenu">
+                    <ul id="menu">
+                        <li id="menuHome" class="menuLi"><a href="#">HOME</a></li>
+                        <li id="menuServices" class="menuLi"><a href="#">SERVICES</a></li>
+                        <li id="menuContact" class="menuLi"><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="belowLogo">Insurance and Morgage Solutions</div>
+                <div class="subTitle">Reduce Premiums | Greater Coverage | Reduce Business Costs</div>
+            </div>
+        
+            <div id="body">
+                <h2>Please enter your details below</h2>
+                
+            <ul id="tabs">
+                <li><a href="#personal">PERSONAL</a></li>
+                <li><a href="#business">BUSINESS</a></li>
+                <li><a href="#both">BOTH</a></li>
+            </ul>
+
+            <div class="tabContent" id="personal">
+                <h2>PERSONAL</h2>
+                <div>
+                    <div class="section1">
+                        <h6>PERSONAL DETAILS</h6>
+                        <table>
+                            <tr>
+                                <td><label>Full Legal Name </label></td>
+                                <td><input type="text" name="name" id="formName" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Partners Full Legal Name </label></td>
+                                <td><input type="text" name="partnersName" id="partnersName" /></td>
+                            </tr>
+                        </table>
+                        
+                        <table>
+                            <tr>
+                                <td><label>Date of Birth</label></td>
+                                <td><input type="date" name="dob" id="formName" /></td>
+                                <td><label>Date of Birth</label></td>
+                                <td><input type="date" name="dob" id="formName" /></td>
+                            </tr>
+                        </table>
+                        
+                        <table>
+                            <tr>
+                                <td><label>Email Address </label></td>
+                                <td><input type="text" id="emailAddress" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Physical Address</label></td>
+                                <td><input type="text" id="physicalAddress" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Occupation</label></td>
+                                <td><input type="text" id="occupation" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Partners Occupation</label></td>
+                                <td><input type="text" id="partnersOccupation" /></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="section2">
+                        <h6>INSURANCE INFORMATION</h6>
+                        <label for="married" >Are you: </label>
+                        <input type="radio" id="married" name="option" class="radioBtn" checked="checked" />
+                        <label for="married" class="radioLabel">Married</label>
+                        <input type="radio" id="single" name="option" class="radioBtn" />
+                        <label for="single" class="radioLabel">Single</label>
+                        <input type="radio" id="deFacto" name="option" class="radioBtn" />
+                        <label for="deFacto" class="radioLabel">De Facto</label>
+                        <br/>
+                        <label for="dependants">Number of dependants</label>
+                        <input type="text" id="dependants" name="option" class="radioBtn" />
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        
+                        <label>Approximately, what would best describe your combined gross annual household income?</label>
+                        <br/>
+                        <input type="radio" id="income1" name="option2" class="radioBtn" checked="checked" style="margin-left: 0px;" />
+                        <label for="income1" class="radioLabel">$30,000</label>
+                        <input type="radio" id="income2" name="option2" class="radioBtn" />
+                        <label for="income2" class="radioLabel">$30,000 - $49,999</label>
+                        <input type="radio" id="income3" name="option2" class="radioBtn" />
+                        <label for="income3" class="radioLabel">$50,000-$99,999</label>
+                        <input type="radio" id="income4 " name="option2" class="radioBtn" />
+                        <label for="income4" class="radioLabel">$100,000 +</label>
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        
+                        <label>Do you currently have any of the following insurance policies?</label>
+                        <br/>
+                        <input type="radio" id="three1" class="radioBtn" style="margin-left: 0px;" />
+                        <label for="three1" class="radioLabel">None</label>
+                        <input type="radio" id="three2" class="radioBtn" />
+                        <label for="three2" class="radioLabel">Life Insurance</label>
+                        <input type="radio" id="three3" class="radioBtn" />
+                        <label for="three3" class="radioLabel">Income Protection</label>
+                        <input type="radio" id="three4" class="radioBtn" />
+                        <label for="three4" class="radioLabel">Morgage Protection</label>
+                        <input type="radio" id="three5" class="radioBtn" />
+                        <label for="three5" class="radioLabel">Health Insurance</label>
+                        <br/>
+                        <input type="radio" id="three6" class="radioBtn" style="margin-left: 0px;" />
+                        <label for="three6" class="radioLabel">Trauma or Disability Insurance</label>
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        
+                        <input type="radio" id="four1" class="radioBtn" style="margin-left: 0px;" />
+                        <label for="four1" class="radioLabel">Key Person</label>
+                        <input type="radio" id="four2" class="radioBtn" />
+                        <label for="four2" class="radioLabel">Loss of Revenue</label>
+                        <input type="radio" id="four3" class="radioBtn" />
+                        <label for="four3" class="radioLabel">Business Overheads</label>
+                        <input type="radio" id="four4" class="radioBtn" />
+                        <label for="four4" class="radioLabel">Buy/Sell Insurance</label>
+                        <input type="radio" id="four5" class="radioBtn" />
+                        <label for="four5" class="radioLabel">Debts/loans Insurance Plan</label>
+                        <input type="radio" id="four6" class="radioBtn" style="margin-left: 0px;" />
+                        <label for="four6" class="radioLabel">Commercial Insurance</label>
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        
+                        <label>Who is your insurance with:</label>
+                        <input type="radio" id="five1" class="radioBtn" />
+                        <label for="five1" class="radioLabel">Bank</label>
+                        <input type="radio" id="five2" class="radioBtn" />
+                        <label for="five2" class="radioLabel">Broker</label>
+                        <input type="radio" id="five3" class="radioBtn" />
+                        <label for="five3" class="radioLabel">Work Scheme</label>
+                        <input type="radio" id="five4" class="radioBtn" />
+                        <label for="five4" class="radioLabel">Other</label>
+                        <input type="text" id="five4.1" class="radioBtn" />
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        
+                        <label>When did you last compare the costs and benifits of your policies to other Insurance providers?</label>
+                        <br/>
+                        <input type="radio" id="six1" class="radioBtn" name="optionSix" style="margin-left: 0px;"/>
+                        <label for="six1" class="radioLabel">3 months</label>
+                        <input type="radio" id="six2" name="optionSix" class="radioBtn"/>
+                        <label for="six2" class="radioLabel">3 months - 1 year</label>
+                        <input type="radio" id="six3" name="optionSix" class="radioBtn"/>
+                        <label for="six3" class="radioLabel">1 year - 3 years</label>
+                        <input type="radio" id="six4" name="optionSix" class="radioBtn"/>
+                        <label for="six4" class="radioLabel">Never</label>
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        
+                        <label>What would you like your insurances to protest for you/what is most important to you to protect?</label>
+                        <br/>
+                        <input type="radio" id="seven1" class="radioBtn" style="margin-left: 0px;"/>
+                        <label for="seven1" class="radioLabel">Family Protection</label>
+                        <input type="radio" id="seven2" class="radioBtn"/>
+                        <label for="seven2" class="radioLabel">Morgage Protection</label>
+                        <input type="radio" id="seven2" class="radioBtn"/>
+                        <label for="seven2" class="radioLabel">Income Protection</label>
+                        <input type="radio" id="seven2" class="radioBtn"/>
+                        <label for="seven2" class="radioLabel">Business Protection</label>
+                        <br/>
+                        <input type="radio" id="seven2" class="radioBtn" style="margin-left: 0px;"/>
+                        <label for="seven2" class="radioLabel">Reduction of Premium</label>
+                        <br/>
+                        <input type="radio" id="seven2" class="radioBtn" style="margin-left: 0px;" />
+                        <label for="seven2" class="radioLabel">Upgrade of Cover</label>
+                        <input type="radio" id="seven2" class="radioBtn"/>
+                        <label for="seven2" class="radioLabel">Consolidation of Insurances</label>
+                        <input type="radio" id="seven2" class="radioBtn"/>
+                        <label for="seven2" class="radioLabel">Information on Other Insurance Products Available</label>
+                    </div>
+                    
+                    <div class="pStatement">
+                        <h7>Privacy Statement:</h7>
+                        <p style="font-size: 13px;">I/we acknowledge P & M Group Ltd has collected this information exclusively for the purposes of assessing your policies with an accredited expert. The information collected will not be passed on to any other parties or used for any other purposes and will be protected under the 1993 Data Policy Act.</p>
+                    </div>
+                    
+                    <div class="check">
+                        <input type="checkbox" id="agree"/>
+                        <label for="agree">By clicking here you agree to the privacy statement above</label>
+                    </div>
+                    
+                    <div class="submitBox">
+                        <input id="submitPersonal" type="button" value="submit" class="submitForm"/>
+                    </div>
+                    
+                    <div class="companysFooter" >
+                        Lumley,Vero, NZI, ACE AIG, Club Auto, Motor & General, London Market Service, NAC Insurance, Protecta, QBE, Zurich, Star
+                        Underwriting/Prestigio, AON Stylecover, & Associate Marine
+                        <br/>
+                        OnePath, AXA/AMP, NIB, Fidelity, Partners Life, Asteron, Sovereign, Southern Cross, Accuro, AIA
+                    </div>
+                    
+                </div>
+            </div>     
+
+            <div class="tabContent" id="business">
+                <h2>BUSINESS</h2>
+                <div>
+                    
+                    <div class="section1">
+                        <h6>PERSONAL DETAILS</h6>
+                        <table>
+                            <tr>
+                                <td><label>Full Legal Name </label></td>
+                                <td><input type="text" name="name" id="formName" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Postion Title </label></td>
+                                <td><input type="text" name="partnersName" id="partnersName" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Company Name</label></td>
+                                <td><input type="text" name="partnersName" id="companyName" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Industy Name</label></td>
+                                <td><input type="text" name="partnersName" id="" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Address </label></td>
+                                <td><input type="text" id="" /></td>
+                            </tr>
+                        
+                            <tr>
+                                <td><label>Work Number</label></td>
+                                <td><input type="text" name="dob" id="" /></td>
+                                <td><label>Mobile</label></td>
+                                <td><input type="text" name="dob" id="" /></td>
+                            </tr>
+                        
+                            <tr>
+                                <td><label>Email Address </label></td>
+                                <td><input type="text" id="emailAddress" /></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="section2"> 
+                    <h6>INSURANCE INFORMATION</h6>
+                    
+                    <label for="bOneA" >Are you a Director or Shareholder in thisbuisness? </label>
+                    <input type="radio" id="bOneA" name="bOption1" class="radioBtn" checked="checked" />
+                    <label for="bOneA" class="radioLabel">Yes</label>
+                    <input type="radio" id="bOneB" name="bOption1" class="radioBtn" />
+                    <label for="bOneB" class="radioLabel">No</label>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bOneA" >Are you a decision maker for the buisness? </label>
+                    <input type="radio" id="bTwoA" name="bOption2" class="radioBtn" checked="checked" />
+                    <label for="bTwoA" class="radioLabel">Yes</label>
+                    <input type="radio" id="bTwoB" name="bOption2" class="radioBtn" />
+                    <label for="bTwoB" class="radioLabel">No</label>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bThreeA" >What structure best describes your buisness?</label>
+                    <input type="radio" id="bThreeA" name="bOption3" class="radioBtn" checked="checked" />
+                    <label for="bThreeA" class="radioLabel">Sole Trader</label>
+                    <input type="radio" id="bThreeB" name="bOption3" class="radioBtn" />
+                    <label for="bThreeB" class="radioLabel">Partnership</label>
+                    <input type="radio" id="bThreeC" name="bOption3" class="radioBtn" />
+                    <label for="bThreeC" class="radioLabel">Ltd Company</label>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+
+                    <label for="bFourA" >How many buisness partners or shareholders are there?</label>
+                    <input type="radio" id="bFourA" name="bOption4" class="radioBtn" checked="checked" />
+                    <label for="bFourA" class="radioLabel">Just me</label>
+                    <input type="radio" id="bFourB" name="bOption4" class="radioBtn" />
+                    <label for="bFourB" class="radioLabel">Two</label>
+                    <input type="radio" id="bFourC" name="bOption4" class="radioBtn" />
+                    <label for="bFourC" class="radioLabel">Three</label>
+                    <input type="radio" id="bFourD" name="bOption4" class="radioBtn" />
+                    <label for="bFourD" class="radioLabel">4+</label>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bFiveA" >Is one of the buisness partners your spouse?</label>
+                    <input type="radio" id="bFiveA" name="bOption5" class="radioBtn" checked="checked" />
+                    <label for="bFiveA" class="radioLabel">Yes</label>
+                    <input type="radio" id="bFiveB" name="bOption5" class="radioBtn" />
+                    <label for="bFiveB" class="radioLabel">No</label>
+
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label>If one of your buisness partners dies or is unable to work due to illness or injury, has your buisness accounted for:</label>
+                    <br/>
+                    <div class="indent">
+                        <label for="bSixA" >Protecting your own ability to earn?</label>
+                        <input type="radio" id="bSixA" name="bOption6" class="radioBtn" checked="checked" />
+                        <label for="bSixA" class="radioLabel">Yes</label>
+                        <input type="radio" id="bSixA" name="bOption6" class="radioBtn" />
+                        <label for="bSixB" class="radioLabel">No</label>
+                        <br/>
+                        <br/>
+                        <label for="bSevenA" >Funding the buyout of a buisiness partner's shareholding?</label>
+                        <input type="radio" id="bSevenA" name="bOption7" class="radioBtn" checked="checked" />
+                        <label for="bSevenA" class="radioLabel">Yes</label>
+                        <input type="radio" id="bSevenB" name="bOption7" class="radioBtn" />
+                        <label for="bSevenB" class="radioLabel">No</label>
+                        <br/>
+                        <br/>
+                        <label for="bEightA" >Protecting the impact on buisness performace?</label>
+                        <input type="radio" id="bEightA" name="bOption8" class="radioBtn" checked="checked" />
+                        <label for="bEightA" class="radioLabel">Yes</label>
+                        <input type="radio" id="bEightB" name="bOption8" class="radioBtn" />
+                        <label for="bEightB" class="radioLabel">No</label>
+                    </div>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bNineA" >Do you have any key people who are valuble to the buiness?</label>
+                    <input type="radio" id="bNineA" name="bOption9" class="radioBtn" checked="checked" />
+                    <label for="bNineA" class="radioLabel">Yes</label>
+                    <input type="radio" id="bNineB" name="bOption9" class="radioBtn" />
+                    <label for="bNineB" class="radioLabel">No</label>
+                    
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bTenA" >Are you protected against the impact if those key people are unable to work?</label>
+                    <input type="radio" id="bTenA" name="bOption10" class="radioBtn" checked="checked" />
+                    <label for="bTenA" class="radioLabel">Yes</label>
+                    <input type="radio" id="bTenB" name="bOption10" class="radioBtn" />
+                    <label for="bTenB" class="radioLabel">No</label>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bElevenA" >Are you aware some insurance cover can significantly reduce your ACC levies?</label>
+                    <input type="radio" id="bElevenA" name="bOption11" class="radioBtn" checked="checked" />
+                    <label for="bElevenA" class="radioLabel">Yes</label>
+                    <input type="radio" id="bElevenB" name="bOption11" class="radioBtn" />
+                    <label for="bElevenB" class="radioLabel">No</label>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <label for="bElevenA">Preferred contact time: </label>
+                    <input type="text" id="bElevenA" name="option" class="radioBtn" />
+                        
+                </div>
+                
+                <div class="pStatement">
+                        <h7>Privacy Statement:</h7>
+                        <p style="font-size: 13px;">I/we acknowledge P & M Group Ltd has collected this information exclusively for the purposes of assessing your policies with an accredited expert. The information collected will not be passed on to any other parties or used for any other purposes and will be protected under the 1993 Data Policy Act.</p>
+                    </div>
+                    
+                    <div class="check">
+                        <input type="checkbox" id="agree"/>
+                        <label for="agree">By clicking here you agree to the privacy statement above</label>
+                    </div>
+                    
+                    <div class="submitBox">
+                        <input type="button" value="submit" class="submitForm"/>
+                    </div>
+                    
+                    <div class="companysFooter" >
+                        Lumley,Vero, NZI, ACE AIG, Club Auto, Motor & General, London Market Service, NAC Insurance, Protecta, QBE, Zurich, Star
+                        Underwriting/Prestigio, AON Stylecover, & Associate Marine
+                        <br/>
+                        OnePath, AXA/AMP, NIB, Fidelity, Partners Life, Asteron, Sovereign, Southern Cross, Accuro, AIA
+                    </div>
+            </div>  
+
+            <div class="tabContent" id="both">
+                <h2>BOTH</h2>
+                <div>
+                </div>
+            </div> 
+                
+            </div>
+            <div class="footerBottom">        
+                <div class="footer"><div class="bottomLogo"></div></div>
+                <div class="copyrightContainer footer">
+                    <div style="padding-top: 90px;"><label class="copyright">&copy copyright P&MGroup 2014</label></div>
+                </div>
+                <div class="footer footRight">
+                    <div style="padding-top: 90px; padding-right:30px;"><label class="">hello@pandmgroup.co.nz</label></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script type="text/javascript">
+        Hoist.apiKey("CCNQVWTNRCZZVLMFNZNN");
+        
+        $("#submitPersonal").click(
+            function(){
+                
+            }
+        )
+        
+    </script>
+</html>

@@ -1,0 +1,113 @@
+#body {
+    padding-bottom: 300px;
+    width: 95%;
+    margin: auto;
+}
+
+ul#tabs { 
+    list-style-type: none; 
+    margin: 30px 0 0 0; 
+    padding: 0 0 0.3em 0; 
+}
+
+ul#tabs li { 
+    display: inline-block; 
+}
+
+ul#tabs li a { 
+    color: #42454a; 
+    background-color: #f1f0ee; 
+    border: 1px solid #c9c3ba; 
+    border-bottom: none; 
+    padding: 0.3em 7em 0.3em 7em;
+    text-decoration: none; 
+}
+
+ul#tabs li a:hover { 
+    background-color: #f1f0ee; 
+}
+
+ul#tabs li a.selected { 
+    color: #000; 
+    background-color: white; 
+    padding: 0.3em 7em 0.4em 7em;
+}
+
+div.tabContent { 
+    border: 1px solid #c9c3ba; 
+    padding: 0.5em; 
+    background-color: white; 
+}
+
+div.tabContent.hide { 
+    display: none; 
+}
+
+/* -- FORM -- */
+
+.section1 {
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.section2 {
+    margin: auto;
+    width: 800px;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
+
+.companysFooter {
+    width: 970px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #CCC;
+}
+
+.pStatement {
+    width: 840px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.check {
+    text-align: center;
+    padding: 20px;
+}
+
+.submitBox {
+    text-align: center;
+
+}
+
+.submitForm {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+}
+
+.indent {
+    padding: 20px 0 0 20px;
+}
+
+/* -- PERSONAL FORM -- */
+

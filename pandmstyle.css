@@ -1,0 +1,447 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body, html {
+    height: 100%;
+    font-family: "GillSans-Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #231f20;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 40px 0 10px 0;
+}
+
+h4 {
+    font-size: 30pt;
+    font-weight: 00;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+b {
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+#body {
+    padding-bottom: 300px; 
+}
+
+input[type="button"] {
+    -webkit-appearance: none;
+}
+/* ---------- SCROLLORAMA STYLES ---------- */
+
+div#content-wrapper {
+	height: 100%;
+	min-width: 900px;
+	min-height: 500px;
+}
+html.touch div#content-wrapper {
+	min-width: 700px;
+}
+.scrollContainer {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	min-width: 650px;
+	width: 100%
+}
+.scrollContent {
+	position: relative;
+	/*height: 100%;*/
+}
+section {
+	height: 100%;
+}
+
+#pin {
+	width: 100%;
+}
+
+#pin #slide2 {
+	height: 100%;
+	width: 100%;
+	top: -100%;
+	position: absolute;
+    z-index: 5;
+	background-color: #231f20;
+}
+
+#pin #slide3 {
+	width: 100%;
+	position: absolute;;
+	background-color: #fff;
+    min-height: 100%;
+    height: 10px;
+}
+
+/* ---------- HEADER STYLES ---------- */
+
+.belowLogo {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2.7%;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.topLogo {
+    width: 100%;
+    height: 800px;
+    background-color: #231f20;
+}
+
+.aboutContainer {
+	top: 20%;
+    width:95%;
+    text-align: center;
+    margin: auto auto;
+}
+
+#aboutus{
+	background-color: white;
+	border-bottom: 1px solid #999;
+}
+
+#wipeScreen{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+#mainScreen{
+    position: absolute;
+    background-color: #231f20;
+    height: 200%;
+    width: 100%;
+}
+.bannerLogo {
+    width: 300px;
+    margin-top: 3%;
+    height: 43px;
+    margin-left: 2%;
+    background-image: url("images/logo-white.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    display: inline-block;
+}
+
+.bannerMenu {
+    display: inline-block;
+    float:right;
+    margin-top: 63px;
+    margin-right: 3%;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+}
+
+.menuItems {
+    display: inline-block;
+    margin: 0 41px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.topWhiteLogo {
+        height: 64px;
+        width: 611px;
+        margin: auto auto;
+        margin-top: 300px;
+        background-image: url("images/logo-white.png");
+        background-repeat: no-repeat;
+        background-size: 610px;
+}
+.firstLogo {
+	height: 110px;
+	width:610px;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-image: url("images/logo-white.png");
+	background-repeat: no-repeat;
+    background-size: 625px;
+}
+
+.subTitle {
+    color: white;
+    margin-left: 2.7%;
+    margin-top: 10px;
+
+}
+
+.whiteSpace {
+    width: 100%;
+    height: 800px;
+}
+
+
+.header {
+	width: 100%;
+    height: 180px;
+    background-color: #231f20;
+    top: 0;
+}
+
+#photoBreak {
+	width: 100%;
+	height: 200px;
+	background-color: #ccc;
+}
+
+.contact {
+	height:300px;
+	background-color: white;
+	width:100%;
+}
+
+.contactUs {
+
+	height: 300px;
+	width: 100%;
+	top: -100%;
+	position: absolute;;
+	background-color: #fff;
+}
+
+
+
+.body {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background-color: #231f20;
+}
+
+.footer {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+}
+
+.footRight {
+    position: absolute;
+    right: 0;
+    color: white;
+    text-align: right;
+}
+
+.bottomLogo {
+    width: 250px;
+    height: 30px;
+    background-image: url(images/logo_white.png);
+    background-size: 250px;
+    float: left;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 45%;
+    margin-left: 30px;
+}
+
+.footerCenter {
+    text-align: center;
+}
+.copyrightContainer {
+    position: absolute;
+    text-align: center;    
+}
+.copyright {
+    color:white;
+    font-size: 15px;
+    padding-top: 90px;
+    text-transform: uppercase;
+
+}
+
+h5 {
+    color: white;
+}
+
+p.person {
+    color: white;
+    font-size: 14px;
+}
+
+.contactD {
+    margin-left: 40%;
+    bottom: 38%;
+    position: relative;
+}
+
+
+.imagesContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.imagesBox {
+    width: 80%;
+    height: 480px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.pics {  
+    width: 100%;
+    height: 480px; 
+    padding: 0;  
+    margin:  0;  
+} 
+ 
+.pics img {  
+    background-color: #eee;
+    max-width: 100%;
+    height: 480px;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.goToFormBox {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.gotoForm {
+    width: 450px;
+    background-color: #231f20;
+    height: 120px;
+    color: white;
+    font-size: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ---------- CONTACT STYLES ---------- */
+
+
+.contactBox {
+    margin: 120px 0;
+    text-align: center;
+}
+
+.person {
+    display: inline-table;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.timFace {
+    background-image: url("images/tim.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.seanFace {
+    background-image: url("images/sean.png");
+    background-repeat: no-repeat;
+    background-size: 205px;
+}
+
+.personFace {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #CCC;
+    margin:auto;
+}
+
+.contactType{
+
+}
+
+.jobTitle {
+    text-transform: uppercase;
+    padding: 17px 0 10px 0;
+}
+
+/* ---------- SERVICE STYLES ---------- */
+
+.serviceContainer {
+    text-align: center;
+}
+
+.service {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
